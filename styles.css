@@ -1,0 +1,282 @@
+
+
+body {
+    font-family: 'Brush Script MT';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3B2C35; 
+    color: #D9CAB3; 
+}
+
+* {
+    font-family: 'Brush Script MT', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-left: 1px solid #D9CAB3; 
+    border-right: 1px solid #D9CAB3; 
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-section img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.taylor-info-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section {
+    padding-left: 50px;
+    width: 500px;
+    line-height: 2;
+}
+
+.text-section section {
+    margin-bottom: 100px;
+}
+
+.taylor-image-gallery {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.taylor-image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+  
+
+
+.header-content, .hero, .gallery, .cta, footer {
+    width: 100%;
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #5E4352; 
+    border-bottom: 2px solid #D9CAB3; 
+}
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D9CAB3;
+    display: block;
+    margin-left: 40px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+
+    
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #D9CAB3; 
+
+}
+
+.logo-text {
+
+    font-size: 2em; 
+    color: #D9CAB3; 
+}
+
+.hero-text h1 {
+
+    font-size: 2.5em; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #D9CAB3; 
+}
+
+.hero-text p {
+    font-size: 1.5em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #D9CAB3; 
+}
+
+.gallery {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #5E4352; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.image-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.image-grid img {
+    flex: 0 0 auto;
+    object-fit: cover;
+}
+
+.cta {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #5E4352; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.join-us {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.join-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join-us form {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-fan-page {
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 275px;
+    margin-right: 275px;
+   line-height: 2;
+
+}
+
+.about-fan-page h2 {
+    margin-bottom: 10px;
+}
+
+.about-fan-page p {
+    font-size: 16px;
+}
+
+.join-us label {
+    margin-bottom: 10px;
+}
+
+.join-us input[type="text"], .join-us input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.join-us input[type="submit"] {
+    padding: 10px;
+    background-color: #1c8adb; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join-us input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #3B2C35;
+    padding: 20px;
+    text-align: center;
+    color: #D9CAB3; 
+}
+
+.buy-button, .favorite-button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: #3B2C35; 
+    font-weight: bold;
+    background-color: #D9CAB3; 
+}
+
+.buy-button:hover, .favorite-button:hover {
+    opacity: 0.8;
+}
+
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.album-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.album-card img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-button, .favorite-button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
